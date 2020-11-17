@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Tech Maker - Orbit Life Enrichment">
+    <meta name="generator" content="Hugo 0.75.1">
+    <title>All In Master</title>
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/navbars/">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendors/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-0 main-navbar">
+        <div class="container-xl">
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <li class="nav-item menu_link mr-3">
+                        <a class="nav-link grand-text" aria-current="page" href="#">探索更多</a>
+                    </li>
+                    <li class="nav-item dropdown menu_link">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            課程種類
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item sub-menu-item" href="#">分類一</a></li>
+                            <li><a class="dropdown-item sub-menu-item" href="#">分類二</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="http://disputebills.com"><img src="assets/images/logo/aim_website_logo.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link border border-radius-10 leterSpace_fix" aria-current="page" href="#">星級導師介面</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link " href="#">
+                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60.998 61">
+                                <g id="SettingIcon" transform="translate(0.5 0.5)">
+                                    <path id="Path_18" data-name="Path 18" d="M1621.527,136.2a2.456,2.456,0,1,0,2.458,2.46A2.459,2.459,0,0,0,1621.527,136.2Z" transform="translate(-1591.771 -107.887)" fill="" />
+                                    <path id="Path_19" data-name="Path 19" d="M1621.527,130.549a8.112,8.112,0,1,0,8.112,8.114A8.114,8.114,0,0,0,1621.527,130.549Zm0,13.38a5.27,5.27,0,1,1,5.269-5.266A5.269,5.269,0,0,1,1621.527,143.929Z" transform="translate(-1591.768 -107.896)" fill="" />
+                                    <path id="Path_20" data-name="Path 20" d="M1620.4,106.463a30,30,0,1,0,30,30A30,30,0,0,0,1620.4,106.463Zm13.3,32.637-1.812,1.065a3.038,3.038,0,0,0-1.424,3.271l.454,2.051a2.025,2.025,0,0,1-2.485,2.4l-2.032-.531a3.034,3.034,0,0,0-3.32,1.306l-1.128,1.769a2.021,2.021,0,0,1-3.454-.063l-1.063-1.81a3.04,3.04,0,0,0-3.271-1.424l-2.049.456a2.024,2.024,0,0,1-2.4-2.485l.529-2.036a3.036,3.036,0,0,0-1.3-3.32l-1.771-1.127a2.021,2.021,0,0,1,.063-3.45l1.81-1.061a3.041,3.041,0,0,0,1.426-3.272l-.454-2.051a2.02,2.02,0,0,1,2.485-2.4l2.03.53a3.035,3.035,0,0,0,3.32-1.309l1.13-1.769a2.024,2.024,0,0,1,3.452.063l1.062,1.81a3.035,3.035,0,0,0,3.27,1.424l2.051-.453a2.024,2.024,0,0,1,2.4,2.489l-.531,2.029a3.042,3.042,0,0,0,1.306,3.32l1.771,1.123A2.026,2.026,0,0,1,1633.7,139.1Z" transform="translate(-1590.398 -106.463)" fill="" stroke="" stroke-width="1" />
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="#">
+                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60.004 60">
+                                <path id="Path_21" data-name="Path 21" d="M1728.811,106.463a30,30,0,1,0,30,30A30,30,0,0,0,1728.811,106.463Zm.525,45.213a.675.675,0,0,1-1.328.081l-2.53-4.215h6.387C1731.857,147.542,1729.336,151.676,1729.336,151.676Zm7.6-6.166h-16.525c-2.415,0-4.187-1.625-4.187-3.542,0-1.87,1.92-3.46,4.362-3.539v-8.476c0-5.819,3.616-10.538,8.131-10.538s8.135,4.718,8.135,10.538v7.018h-11.881c-.42,0-.724.077-.724.5v.189c0,.423.3.939.724.939h11.966c2.415,0,4.377,1.539,4.377,3.46S1739.347,145.509,1736.932,145.509Z" transform="translate(-1698.811 -106.463)" fill="" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="#">
+                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 59.999 60">
+                                <path id="Path_37" data-name="Path 37" d="M2055.642,148.335a30,30,0,1,0,30,30A30,30,0,0,0,2055.642,148.335Zm11.628,46.2h-23.02c-.107-6.91.724-10.964,5.542-13.319a4.93,4.93,0,0,0,2.352-2.953,8.847,8.847,0,0,1-4.755-7.941,8.381,8.381,0,1,1,16.743-.015,8.813,8.813,0,0,1-4.758,7.915,5.012,5.012,0,0,0,2.352,3C2066.539,183.569,2067.374,187.623,2067.269,194.532Z" transform="translate(-2025.642 -148.335)" fill="" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="bg-dark">
+        <div class="container-fluid home-intro-bg nav-overlap-div pt-md-100 pt-130">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container-fluid container-xl  course-instructor-intro">
+                        <div class="row d-flex align-items-center justify-content-center p-3">
+                            <div class="col-lg-2 col-md-3 col-sm-7 col-7 course-instructor-intro-profile-pic">
+                                <img src="assets/images/instructors/tutor_7.png" alt="">
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-12 col-12 order-md-2 order-3 mt-md-0 mt-3 course-instructor-intro-content">
+                                <h2 class="text-grey d-inline">Marcus Fung Hei Wing</h2>
+                                <a href="#">
+                                    <i>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+                                            <g>
+                                                <path fill="#F3EAE0" d="M199.964,97.323v5.354c0.022-0.889,0.036-1.78,0.036-2.677C200,99.104,199.986,98.212,199.964,97.323z" />
+                                                <path fill="#F3EAE0" d="M149.982,13.371L149.982,13.371l-0.002-0.001C136.001,5.287,119.88,0.489,102.677,0.037H100V0.036h2.678
+                                                        C101.788,0.013,100.896,0,100,0c-0.896,0-1.788,0.013-2.678,0.036C80.119,0.488,64,5.286,50.018,13.37
+                                                        C20.841,30.24,0.98,61.425,0.036,97.323C0.013,98.212,0,99.104,0,100c0,0.896,0.013,1.788,0.036,2.677
+                                                        c0.944,35.898,20.805,67.083,49.982,83.953c13.981,8.083,30.101,12.881,47.304,13.333H100v0.001h-2.678
+                                                        C98.212,199.986,99.104,200,100,200c0.872,0,1.739-0.014,2.605-0.035h0.072c17.203-0.451,33.323-5.25,47.305-13.334v-0.002
+                                                        c29.178-16.871,49.037-48.055,49.98-83.952v-5.354C199.021,61.426,179.16,30.242,149.982,13.371z" />
+                                            </g>
+                                            <g>
+                                                <g opacity="0.8">
+                                                    <path fill="#FFFFFF" d="M125.258,118.318c6.149,2.299,11.922,5.384,17.116,9.212c3.267,2.305,6.297,4.892,9.103,7.72
+                                                            l-51.47-110.438V64.18L125.258,118.318z" />
+                                                </g>
+                                                <g opacity="0.7">
+                                                    <path fill="#FFFFFF" d="M74.773,118.312l25.242-54.132V24.82L48.202,135.53c2.899-2.906,6.047-5.601,9.446-8.007
+                                                            C62.859,123.695,68.632,120.607,74.773,118.312" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <path fill="#FFFFFF" d="M156.609,152.305c-4.618-7.798-10.728-14.453-17.978-19.587c-2.915-2.14-6.04-4-9.272-5.61
+                                                            c-7.25-3.607-15.203-5.912-23.399-6.772v16.844c8.415,0.984,16.086,4.204,22.767,8.906c5.945,4.211,10.647,9.649,14.359,16.094
+                                                            h18.32C160.062,158.711,158.445,155.422,156.609,152.305" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <path fill="#FFFFFF" d="M70.688,127.078c-3.25,1.617-6.359,3.484-9.289,5.648c-7.258,5.125-13.485,11.78-18.18,19.58
+                                                            c-1.867,3.116-3.5,6.412-4.844,9.873h18.571c3.461-6.438,8.414-11.89,14.109-16.094c6.68-4.695,14.602-7.922,23.016-8.906v-16.844
+                                                            C85.718,121.195,77.859,123.484,70.688,127.078" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <polygon fill="#FFFFFF" points="102.749,131.396 100.469,131.396 99.555,131.396 97.273,131.396 94.07,131.396 94.07,140.406 
+                                                            94.07,143.28 96.96,143.28 103.062,143.28 105.952,143.28 105.952,140.406 105.952,131.396         " />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <a href="#">
+                                    <i>
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+                                            <g>
+                                                <path fill="#F3EAE0" d="M199.964,97.323v5.354c0.022-0.889,0.036-1.78,0.036-2.677C200,99.104,199.986,98.212,199.964,97.323z" />
+                                                <path fill="#F3EAE0" d="M149.982,13.371L149.982,13.371l-0.002-0.001C136.001,5.287,119.88,0.489,102.677,0.037H100V0.036h2.678
+                                                        C101.788,0.013,100.896,0,100,0c-0.896,0-1.788,0.013-2.678,0.036C80.119,0.488,64,5.286,50.018,13.37
+                                                        C20.841,30.24,0.98,61.425,0.036,97.323C0.013,98.212,0,99.104,0,100c0,0.896,0.013,1.788,0.036,2.677
+                                                        c0.944,35.898,20.805,67.083,49.982,83.953c13.981,8.083,30.101,12.881,47.304,13.333H100v0.001h-2.678
+                                                        C98.212,199.986,99.104,200,100,200c0.872,0,1.739-0.014,2.605-0.035h0.072c17.203-0.451,33.323-5.25,47.305-13.334v-0.002
+                                                        c29.178-16.871,49.037-48.055,49.98-83.952v-5.354C199.021,61.426,179.16,30.242,149.982,13.371z" />
+                                            </g>
+                                            <g>
+                                                <g opacity="0.8">
+                                                    <path fill="#FFFFFF" d="M125.258,118.318c6.149,2.299,11.922,5.384,17.116,9.212c3.267,2.305,6.297,4.892,9.103,7.72
+                                                            l-51.47-110.438V64.18L125.258,118.318z" />
+                                                </g>
+                                                <g opacity="0.7">
+                                                    <path fill="#FFFFFF" d="M74.773,118.312l25.242-54.132V24.82L48.202,135.53c2.899-2.906,6.047-5.601,9.446-8.007
+                                                            C62.859,123.695,68.632,120.607,74.773,118.312" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <path fill="#FFFFFF" d="M156.609,152.305c-4.618-7.798-10.728-14.453-17.978-19.587c-2.915-2.14-6.04-4-9.272-5.61
+                                                            c-7.25-3.607-15.203-5.912-23.399-6.772v16.844c8.415,0.984,16.086,4.204,22.767,8.906c5.945,4.211,10.647,9.649,14.359,16.094
+                                                            h18.32C160.062,158.711,158.445,155.422,156.609,152.305" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <path fill="#FFFFFF" d="M70.688,127.078c-3.25,1.617-6.359,3.484-9.289,5.648c-7.258,5.125-13.485,11.78-18.18,19.58
+                                                            c-1.867,3.116-3.5,6.412-4.844,9.873h18.571c3.461-6.438,8.414-11.89,14.109-16.094c6.68-4.695,14.602-7.922,23.016-8.906v-16.844
+                                                            C85.718,121.195,77.859,123.484,70.688,127.078" />
+                                                </g>
+                                                <g opacity="0.9">
+                                                    <polygon fill="#FFFFFF" points="102.749,131.396 100.469,131.396 99.555,131.396 97.273,131.396 94.07,131.396 94.07,140.406 
+                                                            94.07,143.28 96.96,143.28 103.062,143.28 105.952,143.28 105.952,140.406 105.952,131.396         " />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <h5 class="text-grey">12 Video Lessons</h5>
+                                <p class="text-white">青山依舊在, 幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。</p>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-5 col-5 order-md-3 order-2 course-instructor-intro-staff-pick p-lg-4">
+                                <img src="assets/icons/staff-pick-badge-xl.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid home-intro-bg instructor-course-div course-video-div">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container-fluid container-xl course-instructor-intro">
+                        <div class="row justify-content-center py-50">
+                            <div class="col-lg-6">
+                                <div class="primary-header">
+                                    <h1 class="text-center text-gold mb-5 letter-space-20 hei-title">旗下課程</h1>
+                                    <hr class="bg-gold h-2 my-0">
+                                    <div class="ml-auto mr-auto w-50">
+                                        <hr class="bg-gold h-6 my-0 nv-mt-4">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 course-carousel-div pt-3">
+                                <div class="row">
+                                    <!-- Start Carousel Item -->
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 course-carousel-thumbnail p-sm-3 p-2" style="background-image: url('assets/images/courses/course_1.jpg')">
+                                                    <div class="row d-flex align-content-between h-100">
+                                                        <div class="col-12">
+                                                            <img class="staff-pick-badge" alt="">
+                                                        </div>
+                                                        <div class="col-12 course-bookmark">
+                                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="transparent" />
+                                                            </svg>
+                                                            <a href="#">
+                                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row course-carousel-info d-flex align-items-center">
+                                                <div class="col-12 px-0 mt-2">
+                                                    <a href="#">
+                                                        <h5 class="text-gold font-weight-bold mb-0">Javascript和React初學者訓練營</h5>
+                                                        <p class="text-grey ">Elizabeth Au Yeung Shing Yuet</p>
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 px-0 pb-2">
+                                                    <hr class="bg-gold h-2 my-0">
+                                                    <div class="mr-auto w-25">
+                                                        <hr class="bg-gold h-6 my-0 nv-mt-4">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 course-carousel-rating-score">
+                                                    <p class="text-gold DinConBold mb-0">4.0/5</p>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating">
+                                                    <ul class="list-group list-group-horizontal list-unstyled">
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-half.svg" width="20px" height="20px">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating-meta">
+                                                    <p class="text-white hei-title mb-0 ">(1116個評分) 57459名學生</p>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 text-right">
+                                                    <button class="DinConBold course-carousel-price">HKD $200.00</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Carousel Item -->
+                                    <!-- Start Carousel Item -->
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 course-carousel-thumbnail p-sm-3 p-2" style="background-image: url('assets/images/courses/course_1.jpg')">
+                                                    <div class="row d-flex align-content-between h-100">
+                                                        <div class="col-12">
+                                                            <img class="staff-pick-badge" alt="">
+                                                        </div>
+                                                        <div class="col-12 course-bookmark">
+                                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="transparent" />
+                                                            </svg>
+                                                            <a href="#">
+                                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row course-carousel-info d-flex align-items-center">
+                                                <div class="col-12 px-0 mt-2">
+                                                    <a href="#">
+                                                        <h5 class="text-gold font-weight-bold mb-0">Javascript和React初學者訓練營</h5>
+                                                        <p class="text-grey ">Elizabeth Au Yeung Shing Yuet</p>
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 px-0 pb-2">
+                                                    <hr class="bg-gold h-2 my-0">
+                                                    <div class="mr-auto w-25">
+                                                        <hr class="bg-gold h-6 my-0 nv-mt-4">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 course-carousel-rating-score">
+                                                    <p class="text-gold DinConBold mb-0">4.0/5</p>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating">
+                                                    <ul class="list-group list-group-horizontal list-unstyled">
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-half.svg" width="20px" height="20px">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating-meta">
+                                                    <p class="text-white hei-title mb-0 ">(1116個評分) 57459名學生</p>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 text-right">
+                                                    <button class="DinConBold course-carousel-price">HKD $200.00</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Carousel Item -->
+                                    <!-- Start Carousel Item -->
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 course-carousel-thumbnail p-sm-3 p-2" style="background-image: url('assets/images/courses/course_1.jpg')">
+                                                    <div class="row d-flex align-content-between h-100">
+                                                        <div class="col-12">
+                                                            <img class="staff-pick-badge" alt="">
+                                                        </div>
+                                                        <div class="col-12 course-bookmark">
+                                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="transparent" />
+                                                            </svg>
+                                                            <a href="#">
+                                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                                </svg>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row course-carousel-info d-flex align-items-center">
+                                                <div class="col-12 px-0 mt-2">
+                                                    <a href="#">
+                                                        <h5 class="text-gold font-weight-bold mb-0">Javascript和React初學者訓練營</h5>
+                                                        <p class="text-grey ">Elizabeth Au Yeung Shing Yuet</p>
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 px-0 pb-2">
+                                                    <hr class="bg-gold h-2 my-0">
+                                                    <div class="mr-auto w-25">
+                                                        <hr class="bg-gold h-6 my-0 nv-mt-4">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 course-carousel-rating-score">
+                                                    <p class="text-gold DinConBold mb-0">4.0/5</p>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating">
+                                                    <ul class="list-group list-group-horizontal list-unstyled">
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-full.svg" width="20px" height="20px">
+                                                        </li>
+                                                        <li class="px-1 mx-1 mb-0 list-group-item">
+                                                            <img src="assets/icons/rating-mark-half.svg" width="20px" height="20px">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 course-carousel-rating-meta">
+                                                    <p class="text-white hei-title mb-0 ">(1116個評分) 57459名學生</p>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 text-right">
+                                                    <button class="DinConBold course-carousel-price">HKD $200.00</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Carousel Item -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid jumbotron-bg home-intro-bg pt-100">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="primary-header">
+                        <h1 class="text-center text-gold mb-5 letter-space-20 hei-title">星級導師助陣</h1>
+                        <hr class="bg-gold h-2 my-0">
+                        <div class="ml-auto mr-auto w-50">
+                            <hr class="bg-gold h-6 my-0 nv-mt-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 instructor-grid-container py-50">
+                    <div class="container-fluid">
+                        <!-- Listing container for Instructor/Tutor -->
+                        <div class="row" id="instructor-container">
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_1.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">侍酒師大師之路許可證準備</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>First Name</small></p>
+                                                <p class="text-white mb-0"><small>Last Name</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_5.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">侍酒師大師之路許可證準備</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Elizabeth</small></p>
+                                                <p class="text-white mb-0"><small>Au Yeung Shing Yuet</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_2.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">Javascript和React初學者訓練營</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Kelvin</small></p>
+                                                <p class="text-white mb-0"><small>Sun Ka Wan</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_2.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">全球營銷洞察</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Arne</small></p>
+                                                <p class="text-white mb-0"><small>Li Shing Hong</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_6.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">最好的保險銷售培訓</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Christina</small></p>
+                                                <p class="text-white mb-0"><small>Wong Hei Yan</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_7.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">星級化妝課程</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Marcus</small></p>
+                                                <p class="text-white mb-0"><small>Fung Hei Wing</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 instructor-item mb-3">
+                                <div class="instructor-img p-sm-3 p-2" style="background-image: url('assets/images/instructors/tutor_7.png')">
+                                    <img class="staff-pick-badge" alt="">
+                                </div>
+                                <div class="container instructor-info-div p-sm-3 py-3 px-2">
+                                    <div class="instructor-overlay"></div>
+                                    <div class="row d-flex align-items-between instructor-info h-100">
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <h5 class="text-white">星級化妝課程</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-10 instructor-name">
+                                            <a href="#">
+                                                <p class="text-white mb-0"><small>Marcus</small></p>
+                                                <p class="text-white mb-0"><small>Fung Hei Wing</small></p>
+                                            </a>
+                                        </div>
+                                        <div class="col-2 instructor-bookmark">
+                                            <svg class="bookmark-icon-bg" xmlns="http://www.w3.org/2000/svg">
+                                                <circle id="Ellipse_2" data-name="Ellipse 2" cx="21" cy="21" r="21" fill="#c6c6c6" />
+                                            </svg>
+                                            <a href="#test">
+                                                <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg">
+                                                    <path id="Path_53" data-name="Path 53" d="M371.661,2933.972a19,19,0,1,0,19,19A19,19,0,0,0,371.661,2933.972Zm6.028,27.741a.676.676,0,0,1-.673.672l-5.177-6.747-5.376,6.747a.63.63,0,0,1-.618-.672v-15.847c0-.369.2-.4.566-.4h10.6c.37,0,.677.03.677.4Z" transform="translate(-352.661 -2933.972)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of listing container -->
+                        <div class="row justify-content-center">
+                            <div class="col-10 text-center">
+                                <a class="btn load-more-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40.049" height="7.286" viewBox="0 0 40.049 7.286">
+                                        <g id="Group_34" data-name="Group 34" transform="translate(-957.898 674.266)">
+                                            <path id="Path_77" data-name="Path 77" d="M961.468-674.266a3.418,3.418,0,0,1,2.525,1.058,3.54,3.54,0,0,1,1.044,2.585,3.555,3.555,0,0,1-1.044,2.571,3.4,3.4,0,0,1-2.525,1.072,3.394,3.394,0,0,1-2.525-1.072,3.552,3.552,0,0,1-1.045-2.571,3.537,3.537,0,0,1,1.045-2.585A3.415,3.415,0,0,1,961.468-674.266Z" fill="#2d3f49" />
+                                            <path id="Path_78" data-name="Path 78" d="M977.923-674.266a3.418,3.418,0,0,1,2.525,1.058,3.54,3.54,0,0,1,1.044,2.585,3.556,3.556,0,0,1-1.044,2.571,3.4,3.4,0,0,1-2.525,1.072,3.394,3.394,0,0,1-2.525-1.072,3.552,3.552,0,0,1-1.045-2.571,3.537,3.537,0,0,1,1.045-2.585A3.415,3.415,0,0,1,977.923-674.266Z" fill="#2d3f49" />
+                                            <path id="Path_79" data-name="Path 79" d="M994.378-674.266a3.418,3.418,0,0,1,2.525,1.058,3.54,3.54,0,0,1,1.044,2.585,3.556,3.556,0,0,1-1.044,2.571,3.4,3.4,0,0,1-2.525,1.072,3.394,3.394,0,0,1-2.525-1.072,3.552,3.552,0,0,1-1.045-2.571,3.537,3.537,0,0,1,1.045-2.585A3.415,3.415,0,0,1,994.378-674.266Z" fill="#2d3f49" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 py-50">
+                    <div class="primary-header">
+                        <h1 class="text-center text-gold mb-5 letter-space-20">課程種類</h1>
+                        <hr class="bg-gold h-2 my-0">
+                        <div class="ml-auto mr-auto w-50">
+                            <hr class="bg-gold h-6 my-0 nv-mt-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8 col-sm-8 text-center pb-50">
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">音樂及娛樂</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">職場技巧</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">設計及攝影</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">烹飪藝術</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">健康</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">個人形象</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">個人成長</a>
+                    <a class="btn btn-primary btn-course-category m-2" href="#" role="button">金融投資</a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 py-100">
+                    <div class="primary-header text-center">
+                        <h1 class="text-gold mb-5 letter-space-20 AFS_tex"><img src="assets/images/logo/AFS_text.svg"></h1>
+                        <ul class="ml-auto mr-auto align-items-center list-inline nav-social">
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link" href="#">
+                                    <svg id="whatsappIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                                        <image id="whatsappIcon-2" data-name="whatsappIcon" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANEAAADRCAYAAABSOlfvAAAACXBIWXMAABcRAAAXEQHKJvM/AAAPB0lEQVR4nO2d7XEbSQ6Gx1f7X5OB6AjEi8B0BOZGIDkCayOwFIGlCExGsFIEJiOwGIHJCJaMQFdTxtz10aJFNj4a6HmfKpbKV7cz5Ey/DTQaQL95fn5uAAD5/AvPDgAeEBEATCAiAJhARAAwgYgAYAIRAcAEIgKACUQEABOICAAmEBEATCAiAJhARAAwgYgAYAIRAcAEIgKACUQEABOICAAmEBEATCAiAJhARAAwgYgAYAIRAcDkDzxAc9qmacbJ3yb5d8q7F77Ycu/fa/p0LPb+AiPQd06XCQmk+4wOCEODDYlrQX+f6AMUgIjkaEk0/efC2ffbkaj6D0QlBETEo7MwU/p4E81r9KJ6oM/W99f1C0R0Op1wrkg459G+/G94hKDygIiOY0TCuapMOIfoBDUjQYFXgIh+T7e2uW6a5oPnL6nIhsR0B+t0GIjoZTqLczMQq3Msc3oma5nL1QM2W/+fKxokXyGgX7hsmuYHWaaRs+9WFIjoJxDP8UBMewzdnZvQYIBw8pnTunGwa6ahWqIR7ZF8g4DYXJIVvw7+O7IZoohuyB2xSsEZAmdN03yhLIjJ0H78kNy5Mblu0TILInJPk9UgXLyhiKh7oZ8dfI99Nkkmdh86fnpl8KXZ32lGuLfJYUMBm+qzymsX0Yh23T0MsGWS+LlWSgAd0afPHp+Qq1WSW5rEqqVmEU3JfSs1iJYk4NIZ072opgVFtaT7V+ne1SqiLk3lk/E9d0kC58LxgJkkmeeWkckd3bM69642EbU0iC0jb33288zwnlJMkox0Kwv1MeizOkhNIrKMvu3I2s0qySVrSUhW+YJzEm8V1CKiMbkJ2rPphgZazTU3E/qN2tb8kYQU/jnWICKLAEIvnqrckFewENOK7hNaSNFFdEVJo1rsaCDdlf2ZRZnQ79dyk8MLKXLaj7aA7ik8PGQBNeQmjykgsFO4/gXdY79lWBiiikhTQN2exr+Hnpn8An3pw73CtUMLKaI7pyUguG7Ho1VCEtK1iyYirSjcigIUKH0+npYmHelN7XBCiuTOaQnolq4NAZ3GllzeP4XXShfRoqBRLFFL+WeS7kO1aSgF0Ej0DbMhG8USLYQFtEosG+CzJhdsLvgsL6NUy0YQkXQqzyO9cLhvsmzJckhG775EqJT17s5JR+KqytlyjOR723lfs3oWUffgvgte7y+Er02RFNIqqeZ1h1d3rhXuA/0RAjJnRs9dggvP1bFeRSSZkl9d/UogJIX02ev6yKM714Wd/xa6FgTkAynXbkNunauNWG+WqBUc9PcQkBukLNK5R7fOm4huhDIS5kPuyOmUmdA+0idvbp0nd25CbX25LIfYhTMQC4FCP1fROk+WSCJ6tqE1FfDLlN4ThwtPnoYXEV0LZCXsau5tVhFboYnuxkv9kQcRtUKLxWscKx+GJ9r85nDmZe/Pg4iuBYIJc0TiwnFHeYwcLj0cNFY6sNBSThRHRFZ7B+M99+G1xvPgdSTef/F8yNIimtFswuG9QUnDobbEG7r3DGUV2Uhsrr8tmaBaUkQSs9C9QZTm2N32qpu2K9PlSX5g3KKoNSopIu6ZQTvyhzUH7akl6cgUz2NE7jFnQi1mjUoFFloBC6LdgrbPJD/lxSJLIo+1wORTLB2olIi4pxAshUslXuIhI5P8HEV/2dwwN2GnpfaNSomIO2tozzqcHtRVnwqnDOfZnZWawEqsibg5ctqLSIkcPpRg5LNm1JJtSuwblbBEXAFozvRSpRhYG+XDeb/nJZKPrUXUMveF5soRGKmK2gtkkmczY66NzF06a3eOW+GoGcbs3IAfgtdDSUY+nHGysw4wWFsiTvbuUtkKSa9h3nnuUOOcGaM18Zl1OYyliFrmrrTmJuZE6UQ4rI3y4bzvakXE+WEb5X0hLT/6MvLhVYXheAbVioizPtAMF3ODHa+BSts81oxSCVOXLool0hSR9sNGBkM+HO/DLKhjJaIxI81HO6CgLaJ3cOmy4QQYqrNEXl25xiiCBpcun1xrdG6VvRBBRNrFbtLnjr4EQt35cN6/iUvnXUQrZVfOys2CiPJxvy6yENGIsR7SLnfA4PbPltbFOZi8XwsRcX4I+haAhjEOJE9YPMjQRWQlUvRd4OF6XWQhotwfkWvCPQKLyoPz/NRdOgsR5S7erQZe7j7EKddHgR6fVeYV1MPcFiLK9UutWgJr3+cO7pwIue8pvCXizAJW7Y80Ld4OLbTEyB0PgxZRDZboAVZIjNzJTuLQuN/i9eDjXP83B01LBCskB8czUbVG2iLKjcxZzt5bgdMJXmKHo15E4YhINTPFqyWyHnwamREIa8uT28BENULnVUTW6whOyv0hYIXkybVGgxRRCaTXLxDRQPAanSsxAO+ErRGicvLkjovQa6JcEZUYgFvhUu7ixyBWSO64CB2di8YDdVmVACIaCBDRr1wL7VOh++lA0BZRxHXBlnoicNdH72CNhoG2iKJGqNZClgRnFQ0AuHOHeaJzhjhcogS9fryKyMvAmwkEGmboO1c3XkXkadBdMatsLygFCEKqFG0R1ZI/NmVG7CAkGVwmNMOdO45+I5YTseuFhIidPaoBLm0R5SYMepyxnwQidhd0HbQVzsOlJfcqIq8RLYmIXVdp+Tfl6sG9Ow2TPnKnYuHO5awlzhwPsC7aditwnU9C1u1URkHFy/nOod25xmvSIJMboRy7rpn+N+My8gV5CLNgqUmc8RA+sJAbofO+SckNfaf0Vkn7N9+QcM9oI/gbCeouwPPmfD/VzlEWInLbL0wAbug7pfP3vyseltw9z88v/O/nJOLvNOF5tU5u2695FlEEV2NL31OyO9EXKsmQXLe0R/aReEfWyeOp57mTqnrnKAsRrTP3V8xOOmMilfWd8kF4c/bhxMPMvjhsffwu879TbwJqtdlaszVqkqxvSSFJZTnMMgfgpSMhcVx79UoCKxHlBhcibUo+KQkpN+DQkgguGff3IiTOZFqNiHL7ukWrDtUQ0jlNQqesU0b033AE1ONBSK5F9Ob5+Vn7Hj3bzL7IfxocOynNmAaxdB/oJYWjDz2PlsT2UhSOy23BIsPcQbqz2Fi2FNEDLZhPZS7chccKLSE11Al0sbdonjAW38fysYBVmlKaVA6PFkuCP7RvkJAroqjJmr1rpyGkcyFX7VS+0v/fUkic929SimNZCpHrkp0FtUSN0hqpNF+N16qce1Unoi1j4yty6UAvpNxm7B55MMoomZ64v5VidiqHdVFe7szwIXjZQB+mtjx3SZMzepfaQuJMnmbBKGsRcX5Y9EK2PkWollPRzxTSk1LaCOuhJpAlagKvi1J6IUm1Ki5Nv4elwZQZkKnWEjWMmbimjqLdhPCXg+8hgVYtFCcJ9tGy+24JEXEWezX1JugG3/vAkbsdbYRrhLsnzFJw0835EiIaukuXsggacNjRQNcarNzMiOpFxElNv6iwuceahHTv4LscQy8grfAxN/Nibn2QQjR3rqm43dQ1uXee95O0BdREs0JNweaNnDBvzT3bFo6tkoWAuFZoMyQRcVy6nPy7SGzJKr11FAq3EFAjYIUsuyb9l4giagZyCt2aAimlxWQloCnTCu1K1T2VEhHWRceTiuneOCRuJaBGwIo8lDqZsZSIuD92iAdnrcnNa2l/Zq4sqJWhgG4YiabpNYpgWZSX0g2Ef5jXeCP7lcIypcHO3aBMeSTrZzGzj6nnHYeihZulRNQwSn573ld0/pEULYlpnPw9Jf9sQ9bOMsK1EKjIfWvRGusQlpWt0owhol/YkgD2RTDZ+9vQ8+s3rp/oWVqHh28EBDQvKaCmsCV6YrofUXsvgJ9IuHE7uk5REZU8KY/rb+PEubgc29b4Ne5KC6gJfgQ/RBSXmUA0blNqc3WfyCLivgRQhmuhrJPrUvtC+0QWEYjHlJrlc1l6augZXURw6eIwFkrL2XkLKEFEwALJbrA3HoIJKXDngDZ9JE5CQEsvwYSU6CIyac4HsmnJAkkEgdy5cT3RReQiOgNepD/eRSqf78qbG9dTMu2ntl4J4H9In4hx7/l4ncgJqKuBlkR4R1pA7t9zZHfOpWkfOFeUDycloF2EKuZSIpIITSOD2xd3yflFEvQCcr/uLbUmgojqoRUOIPRcRYm+lrJE3KCC2dkz4Ld0aTxrBQF9jHRObykRcReK0Q5Cro3+eP/uLFXpozRLnAvLIqo7527XekBMaZBrHOh8H01ATVARreDKFWFEA1zrhPI58ziVYpRy5zgvAlbIlpae+Q9FAX2MXOpfYrOVW1uf9vHeClil/Wsg6veTlizDtZLr1hNuDbRPCRFNaUHqnSVFnvpOOENxIa3Es6N7hBZQU0hEnWvwyfqmAuySdlQ1RgfHNKgvDe5l2Z5YnRIikmjWV5peULPg7l9La5Erhb2eQ6yS/aUqKCGiYhmvSmySxocRLFR/tP20wDE1c08NRqSwFlFnwr9Z3rAAjyQqT+uovlf31NDipFSz/nkJ632iIZwr9GFvhl8mglobCGu89yntOq8i5cHlYG2JalgPSbBKQutbEle6Rtj/d0NuWJouNaJPm/TVLmFlfsd91A3UU7AUkcRxKiAGKxLPIPbcLDMWhuDKDZ1u7XM7tBM7LNdEQzoicog8kvUZXMUxLBHgsqQD16ra+zkFK0s0RgP66thQ1G3wuYZWlgiHcdXDkg5eHkFAP7GKzq1hicLzSHmPEM4eFu7cqJCA0j4Mx774ft1W6jt7Y0NZBjO0KDuMhYgsonKbJCvgKdnE5DImQaVZAEMQ17zibHVxLNy5B6VEx0e69sJ4lmyTXLSJwyyBHHZ7SbTocX4CFiKSXA89kmvhaYaMKqpVkigLi8NAW0Qjqs3PJVqZQZOIapz81awQPZZlUqW7gLWRQ1tEp5aC75KXXFNJ9ihZW42SRFLpZNxdki2+NswcHzTagYXXmjRu9gRT68vuB/WhKOFor43Y+JUusfuBE6lACshA2xLtlz6s9kSDsCkIj0WI+zYRDWZLUB0lD/kCoApwejgATCAiAJhARAAwgYgAYAIRAcAEIgKACUQEABOICAAmEBEATCAiAJhARAAwgYgAYAIRAcAEIgKACUQEABOICAAmEBEATCAiAJhARAAwgYgAYAIRAcAEIgKAQ9M0/wEK5L/AuD2eDgAAAABJRU5ErkJggg==" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                                        <image id="twitterIcon" width="40" height="40" xlink:href="data:image/png;base64,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" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link" href="#">
+                                    <svg id="instagramIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                                        <image id="instagramIcon-2" data-name="instagramIcon" width="40" height="40" xlink:href="data:image/png;base64,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" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+                                        <image id="facebookIcon" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANEAAADRCAYAAABSOlfvAAAACXBIWXMAABcRAAAXEQHKJvM/AAAEwklEQVR4nO3d700cRwDG4XHk76aD0IHpwFBB3EHSQVyCS6CEuANSgaED3AHuIFRw0YpFOp3glPDu7M3OPI90Enxid+2fZm/2z7zb7XYFeLtfHDvIiAhCIoKQiCAkIgiJCEIigpCIICQiCIkIQiKCkIggJCIIiQhC7x3AoZyVUi6O7PDD/OF/EFFfLksp5/Pnct6zKZoPwV7+KKX8s/f77d7Ph9ENGaGH8rZtCuTzHMynBvfk6iC6LhmJtmcK58scTzLCsBARbccfpZSvpZRfRz8QrRFR+8TTOBG1a/qe85d42iei9pzN8fw2+oHYChG1ZRp9bkwYbIs7Ftoxfe/5LqDtMRKdntO3jRPRaZ3NFyM/jnwQts7p3OkIqBMiOg0BdUREp3EjoH6IaH3Xjd4syhuJaF3TTaN/jrTDIxDRep6nsumMiNZz7UJqn0S0jul2nt9H2NERiWgdX0fYyVGJqL5WH91mISKqzyjUORHVdW4U6p+I6vrS887xRER1fe5553gionouvB9hDCKqZ/RR6OfBm1O75aG8ei5P9YdP5K6Ucj9/bkd6nbDXCNfT84HdD+ZhhFcFH2MkqqOnUWg/mOcPe0RUx7HlS1p3Nz80eD/6CPNfiaiO841t79/zYxq3o0wGLElEdWxhJHqcH8+4Fk5GRHW0PBKJZ2Fm5+po9aD+mK9fWVJyQS62Lu+s0e36Ns8aCmhhTueW1+L3obt5nSMqMBL179EtSHWJqH8mECoT0fJaOp17nomjIhEtr6WJhRujUH0i6pvbdlYgor6JaAUi6ptrQisQUb/uRj8AaxERhETULw/PrURE/TK1vRIRQUhEEBIRhEQEIRH1y90KKxERhEQEIRFBSEQQEtHytvwKYd5ARMtr9ZVZVCIiCIkIQiLql4utKxHR8ra2rAohrxHOnR+EY8XwwYjoyeHykPu/nx1MW0+/f1xrwwLPK1O89K6Fh1deYvLSKeC9B/yOG2VpleuDEKafP5xwe7bu8ZXHz/cjfJhX3+veKBFN/7ifGtiOkdx1tgD0q0wsUMsws4MigpCIqMVIBIiI0zISASLidIZ6mb6IICQiahjqDnIRUcNQ99qJiBqGWtZFRNRgJIKQkQgCj6MdPBGxtOGWuRQRSxvuKVgRsTQjEYSMRBAyEkHISAQhIxEEfo548ETEkl56IWT3RMSSRAQhEUFIRBASEYREBKEhI7I+Ud++jfofe02jLK1ysfLS+N9X/FvHXFm7tb5RRqLhbkVhPb4TQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBSEQQeu8AVnHVyHbcN7AN3Xu32+1GPwYQcToHIRFBSEQQEhGERAQhEUFIRBASEYREBCERQUhEEBIRhEQEIRFBopTyL39Dj4qeTPqqAAAAAElFTkSuQmCC" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link text-white" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"  viewBox="0 0 73.89 91.23"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M67.69,44.5c-.24-3.45-.89-7.58-2.67-10C66.73,12.68,51.91-.22,37,0S7.17,12.68,8.88,34.48C7.11,36.92,6.45,41,6.22,44.5,1.83,51.23-3,61.49,2.39,71.4a10.07,10.07,0,0,0,5.68-7,37.72,37.72,0,0,0,9.27,13.75c-5.9,1.15-10.1,3.93-9.95,7,.17,3.74,6.86,6.49,14.92,6.1,6.71-.32,12.26-2.68,13.84-5.63.17,0,1.44,0,1.61,0,1.57,3,7.13,5.33,13.84,5.63,8.06.37,14.75-2.36,14.92-6.1.13-3-4-5.81-9.95-7A37.69,37.69,0,0,0,65.84,64.4a10.07,10.07,0,0,0,5.68,7c5.37-9.9.53-20.17-3.84-26.9h0ZM44.49,14.33c3,.09,5.27,3.7,5.13,8.07S47,30.23,44,30.12s-5.25-3.69-5.12-8.07S41.54,14.24,44.49,14.33ZM29,13.83c3.05-.11,5.64,3.47,5.79,8S32.54,30,29.49,30.13s-5.65-3.46-5.79-8,2.21-8.24,5.26-8.32ZM19.51,35.15c.4-1.77,10.93-3.91,17.44-3.94s17,2.18,17.45,3.94c.26,1.29-5.51,5.77-9.15,7.22S41,45.68,37,45.68s-4.79-1.94-8.29-3.31c-3.65-1.45-9.42-5.93-9.16-7.22ZM37,83.35c-13.88,0-27.6-11-21.57-32.63.83.45,1.73.86,2.67,1.28-.19,2.71-.78,11.52-.53,12.91.28,1.69,9.24,3,10,2.35s.63-9.15.53-12.23a48.14,48.14,0,0,0,8.87.84,48,48,0,0,0,21.57-5.13c6,21.62-7.68,32.66-21.56,32.62Z"/><path class="cls-1" d="M30.76,18.15c-1.29,0-2.28,1.68-2.22,3.66s1.15,3.56,2.43,3.54,2.28-1.69,2.22-3.68S32,18.12,30.76,18.15Zm.67,4.73c-.48,0-.9-.61-.92-1.43s.33-1.47.82-1.48.89.63.92,1.42S31.91,22.87,31.43,22.88Zm14.74,1h0a.59.59,0,0,1-.57-.6,4.57,4.57,0,0,0-.78-2.91,1.33,1.33,0,0,0-1-.41c-2,0-2,2.87-2,3a.58.58,0,1,1-1.16,0c0-1.44.67-4.16,3.18-4.16a2.51,2.51,0,0,1,1.86.78c1.21,1.27,1.12,3.68,1.11,3.76A.58.58,0,0,1,46.17,23.92ZM36.93,43.71a7.11,7.11,0,0,0,1.7-.14c1.43-.28,2.88-1.63,4.25-2.4,2.94-1.82,3.48-1.48,8.15-5.62a25.44,25.44,0,0,1-9.16,4.8,23,23,0,0,1-4.93.41A20.51,20.51,0,0,1,32,40.35a24.86,24.86,0,0,1-9.16-4.81c4.66,4.15,5.21,3.8,8.16,5.62,1.36.77,2.81,2.14,4.24,2.41a10.75,10.75,0,0,0,1.67.15Z"/></g></g></svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <a class="social-link text-white" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"  viewBox="0 0 87.66 72.75"><defs><style>.cls-1{fill:#fff;fill-rule:evenodd;}</style></defs><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M86,39.11A24.19,24.19,0,0,0,74.7,27.6a31.14,31.14,0,0,0-27.87.11c-6,3.06-10.93,8.54-12.35,15.21A19.48,19.48,0,0,0,37,57.38c3.87,6.44,10.87,10.55,18.15,11.87A33.4,33.4,0,0,0,71,68.2c3.07,1.2,5.81,3.13,8.79,4.55q-1.14-3.85-2.46-7.67a25.09,25.09,0,0,0,8.2-9A19.65,19.65,0,0,0,86,39.12ZM49.74,4.54A37,37,0,0,0,19.47,2.18,30.81,30.81,0,0,0,3.6,14.67a23.45,23.45,0,0,0-2.92,18C2.26,39.36,6.93,45,12.6,48.75Q11,53.4,9.47,58.08c3.56-1.86,7.13-3.8,10.69-5.69a39.9,39.9,0,0,0,13.37,1.89,22.59,22.59,0,0,1-.94-10.79,23,23,0,0,1,7.29-13c6.3-5.9,15.23-8.39,23.73-7.78-1.59-7.8-7.07-14.39-14-18.19ZM56.06,41a3.59,3.59,0,1,1-4.6-4.65C54.14,35.25,57.24,38.34,56.06,41Zm17.52.33a3.66,3.66,0,0,1-5.75,1,5.34,5.34,0,0,1-1.26-2.67C67,38,68.1,36.27,70,36.19c2.58-.36,4.88,2.82,3.56,5.17ZM47.45,17.78c0,3.51-4.66,5.7-7.29,3.33a4.48,4.48,0,1,1,7.28-3.37Zm-22.14.89a4.5,4.5,0,0,1-7.1,2.48c-2.78-1.95-2-6.79,1.26-7.78,3.19-1.23,6.81,2,5.85,5.3Z"/></g></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="text-center text-white mb-0 mt-5">青山依舊在, 幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。</p>
+                        <p class="text-center text-white mb-0">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。滾滾長江東逝水，浪花淘盡英雄。是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，慣看秋月春風。</p>
+                        <p class="text-center text-white mb-0">一壺濁酒喜相逢，古今多少事，都付笑談中。</p>
+                        <p class="text-center text-white mb-0">青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，
+                            滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-black">
+        <div class="container-fluid container-lg">
+            <p class="py-3 mb-0 text-white dinpro font-weight-lighter"><img class="mx-4" src="assets/icons/all_in_master_footer_logo.png" alt=""> &copy; 2020 All in Master. All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+<script>
+var vframe = document.getElementById('video_frame');
+var vcontext = document.getElementById('video_context_list');
+vcontext.style.height = vframe.offsetHeight + 'px';
+</script>
+
+</html>

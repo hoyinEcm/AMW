@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Tech Maker - Orbit Life Enrichment">
     <meta name="generator" content="Hugo 0.75.1">
-    <title>All In Master</title>
+    <title>Cart - All In Master</title>
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/navbars/">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -33,12 +33,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark-0 main-navbar">
-        <div class="container-xl">
+        <div class="container-xl menu_bar">
             <div class="collapse navbar-collapse" id="navbarsExample07XL">
-                <ul class="navbar-nav  mb-2 mb-lg-0 ">
-                    <li class="nav-item menu_link mr-3">
-                        <a class="nav-link grand-text" aria-current="page" href="#">探索更多</a>
-                    </li>
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">                   
                     <li class="nav-item dropdown menu_link">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                             課程種類
@@ -49,6 +46,14 @@
                             </li>
                         </ul>
                     </li>
+                                        <li class="nav-item menu_link  ml-4">
+                        <a class="nav-link  grand-text" aria-current="page" href="#" style="letter-spacing: 2px !important;">名師頻道</a>
+                    </li> 
+                    <form class="form-inline ml-4">
+                        
+                        <input class="form-control search_input" id="search_input" type="search" name="search_input" placeholder="" aria-label="Search">
+                        
+                    </form>
                 </ul>
             </div>
             <a class="navbar-brand" href="http://disputebills.com"><img src="assets/images/logo/aim_website_logo.png" alt="">
@@ -56,32 +61,10 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav  mb-2 mb-lg-0 ">
                     <li class="nav-item mr-3">
-                        <a class="nav-link border border-radius-10 leterSpace_fix" aria-current="page" href="#">星級導師介面</a>
+                        <a class="nav-link border border-radius-10 leterSpace_fix" aria-current="page" href="#">成為名師</a>
                     </li>
                     <li class="nav-item mr-3">
-                        <a class="nav-link " href="#">
-                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60.998 61">
-                                <g id="SettingIcon" transform="translate(0.5 0.5)">
-                                    <path id="Path_18" data-name="Path 18" d="M1621.527,136.2a2.456,2.456,0,1,0,2.458,2.46A2.459,2.459,0,0,0,1621.527,136.2Z" transform="translate(-1591.771 -107.887)" fill="" />
-                                    <path id="Path_19" data-name="Path 19" d="M1621.527,130.549a8.112,8.112,0,1,0,8.112,8.114A8.114,8.114,0,0,0,1621.527,130.549Zm0,13.38a5.27,5.27,0,1,1,5.269-5.266A5.269,5.269,0,0,1,1621.527,143.929Z" transform="translate(-1591.768 -107.896)" fill="" />
-                                    <path id="Path_20" data-name="Path 20" d="M1620.4,106.463a30,30,0,1,0,30,30A30,30,0,0,0,1620.4,106.463Zm13.3,32.637-1.812,1.065a3.038,3.038,0,0,0-1.424,3.271l.454,2.051a2.025,2.025,0,0,1-2.485,2.4l-2.032-.531a3.034,3.034,0,0,0-3.32,1.306l-1.128,1.769a2.021,2.021,0,0,1-3.454-.063l-1.063-1.81a3.04,3.04,0,0,0-3.271-1.424l-2.049.456a2.024,2.024,0,0,1-2.4-2.485l.529-2.036a3.036,3.036,0,0,0-1.3-3.32l-1.771-1.127a2.021,2.021,0,0,1,.063-3.45l1.81-1.061a3.041,3.041,0,0,0,1.426-3.272l-.454-2.051a2.02,2.02,0,0,1,2.485-2.4l2.03.53a3.035,3.035,0,0,0,3.32-1.309l1.13-1.769a2.024,2.024,0,0,1,3.452.063l1.062,1.81a3.035,3.035,0,0,0,3.27,1.424l2.051-.453a2.024,2.024,0,0,1,2.4,2.489l-.531,2.029a3.042,3.042,0,0,0,1.306,3.32l1.771,1.123A2.026,2.026,0,0,1,1633.7,139.1Z" transform="translate(-1590.398 -106.463)" fill="" stroke="" stroke-width="1" />
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="#">
-                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60.004 60">
-                                <path id="Path_21" data-name="Path 21" d="M1728.811,106.463a30,30,0,1,0,30,30A30,30,0,0,0,1728.811,106.463Zm.525,45.213a.675.675,0,0,1-1.328.081l-2.53-4.215h6.387C1731.857,147.542,1729.336,151.676,1729.336,151.676Zm7.6-6.166h-16.525c-2.415,0-4.187-1.625-4.187-3.542,0-1.87,1.92-3.46,4.362-3.539v-8.476c0-5.819,3.616-10.538,8.131-10.538s8.135,4.718,8.135,10.538v7.018h-11.881c-.42,0-.724.077-.724.5v.189c0,.423.3.939.724.939h11.966c2.415,0,4.377,1.539,4.377,3.46S1739.347,145.509,1736.932,145.509Z" transform="translate(-1698.811 -106.463)" fill="" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item mr-3">
-                        <a class="nav-link" href="#">
-                            <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 59.999 60">
-                                <path id="Path_37" data-name="Path 37" d="M2055.642,148.335a30,30,0,1,0,30,30A30,30,0,0,0,2055.642,148.335Zm11.628,46.2h-23.02c-.107-6.91.724-10.964,5.542-13.319a4.93,4.93,0,0,0,2.352-2.953,8.847,8.847,0,0,1-4.755-7.941,8.381,8.381,0,1,1,16.743-.015,8.813,8.813,0,0,1-4.758,7.915,5.012,5.012,0,0,0,2.352,3C2066.539,183.569,2067.374,187.623,2067.269,194.532Z" transform="translate(-2025.642 -148.335)" fill="" />
-                            </svg>
-                        </a>
+                        <a class="nav-link border border-radius-10 leterSpace_fix" aria-current="page" href="#">登入</a>
                     </li>
                 </ul>
             </div>
@@ -124,7 +107,7 @@
                                                     <div class="row py-2">
                                                         <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 px-0">
                                                             <h6 class="text-white mb-2">Alizabeth Au Yeung Shing Yuet</h6>
-                                                            <h4 class="text-gold font-weight-bold hei-title">待酒师大师之路许可证准备</h4>
+                                                            <h4 class="text-gold font-weight-bold hei-title">待酒師大師之路許可證準備</h4>
                                                         </div>
                                                         <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex align-items-end course-price px-0">
                                                             <button class="DinConBold course-price-btn">HKD $200.00</button>
@@ -294,7 +277,7 @@
             <div class="row justify-content-center pt-5">
                 <div class="col-lg-6">
                     <div class="primary-header">
-                        <h1 class="text-center text-gold mb-5 letter-space-20 hei-title">星級導師助陣</h1>
+                        <h1 class="text-center text-gold mb-5 letter-space-20 hei-title">星級名師助陣</h1>
                         <hr class="bg-gold h-2 my-0">
                         <div class="ml-auto mr-auto w-50">
                             <hr class="bg-gold h-6 my-0 nv-mt-4">
@@ -580,7 +563,7 @@
                             </li>
                             <li class="list-inline-item mr-2">
                                 <a class="social-link text-white" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"  viewBox="0 0 73.89 91.23"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M67.69,44.5c-.24-3.45-.89-7.58-2.67-10C66.73,12.68,51.91-.22,37,0S7.17,12.68,8.88,34.48C7.11,36.92,6.45,41,6.22,44.5,1.83,51.23-3,61.49,2.39,71.4a10.07,10.07,0,0,0,5.68-7,37.72,37.72,0,0,0,9.27,13.75c-5.9,1.15-10.1,3.93-9.95,7,.17,3.74,6.86,6.49,14.92,6.1,6.71-.32,12.26-2.68,13.84-5.63.17,0,1.44,0,1.61,0,1.57,3,7.13,5.33,13.84,5.63,8.06.37,14.75-2.36,14.92-6.1.13-3-4-5.81-9.95-7A37.69,37.69,0,0,0,65.84,64.4a10.07,10.07,0,0,0,5.68,7c5.37-9.9.53-20.17-3.84-26.9h0ZM44.49,14.33c3,.09,5.27,3.7,5.13,8.07S47,30.23,44,30.12s-5.25-3.69-5.12-8.07S41.54,14.24,44.49,14.33ZM29,13.83c3.05-.11,5.64,3.47,5.79,8S32.54,30,29.49,30.13s-5.65-3.46-5.79-8,2.21-8.24,5.26-8.32ZM19.51,35.15c.4-1.77,10.93-3.91,17.44-3.94s17,2.18,17.45,3.94c.26,1.29-5.51,5.77-9.15,7.22S41,45.68,37,45.68s-4.79-1.94-8.29-3.31c-3.65-1.45-9.42-5.93-9.16-7.22ZM37,83.35c-13.88,0-27.6-11-21.57-32.63.83.45,1.73.86,2.67,1.28-.19,2.71-.78,11.52-.53,12.91.28,1.69,9.24,3,10,2.35s.63-9.15.53-12.23a48.14,48.14,0,0,0,8.87.84,48,48,0,0,0,21.57-5.13c6,21.62-7.68,32.66-21.56,32.62Z"/><path class="cls-1" d="M30.76,18.15c-1.29,0-2.28,1.68-2.22,3.66s1.15,3.56,2.43,3.54,2.28-1.69,2.22-3.68S32,18.12,30.76,18.15Zm.67,4.73c-.48,0-.9-.61-.92-1.43s.33-1.47.82-1.48.89.63.92,1.42S31.91,22.87,31.43,22.88Zm14.74,1h0a.59.59,0,0,1-.57-.6,4.57,4.57,0,0,0-.78-2.91,1.33,1.33,0,0,0-1-.41c-2,0-2,2.87-2,3a.58.58,0,1,1-1.16,0c0-1.44.67-4.16,3.18-4.16a2.51,2.51,0,0,1,1.86.78c1.21,1.27,1.12,3.68,1.11,3.76A.58.58,0,0,1,46.17,23.92ZM36.93,43.71a7.11,7.11,0,0,0,1.7-.14c1.43-.28,2.88-1.63,4.25-2.4,2.94-1.82,3.48-1.48,8.15-5.62a25.44,25.44,0,0,1-9.16,4.8,23,23,0,0,1-4.93.41A20.51,20.51,0,0,1,32,40.35a24.86,24.86,0,0,1-9.16-4.81c4.66,4.15,5.21,3.8,8.16,5.62,1.36.77,2.81,2.14,4.24,2.41a10.75,10.75,0,0,0,1.67.15Z"/></g></g></svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 576 512" class="svg-inline--fa fa-youtube fa-w-18 fa-7x"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" class=""></path></svg>
                                 </a>
                             </li>
                             <li class="list-inline-item mr-2">
@@ -598,12 +581,132 @@
                 </div>
             </div>
         </div>
+                <div class="container-fluid container-lg">
+            <div class="row pt-100 pb-50">
+                <div class="col-md-3 col-sm-6 col-6 text-center text-md-left mb-5">
+                    <h3 class="text-white mb-3 letter-space-10 MS_goldHK">課程種類</h3>
+                    <ul class="nav-listing list-unstyled text-white font-weight-light letter-space-10">
+                        <li class="mb-2"><a href="#">音樂及娛樂</a></li>
+                        <li class="mb-2"><a href="#">職場技巧</a></li>
+                        <li class="mb-2"><a href="#">設計及攝影</a></li>
+                        <li class="mb-2"><a href="#">烹飪藝術</a></li>
+                        <li class="mb-2"><a href="#">健康</a></li>
+                        <li class="mb-2"><a href="#">個人形象</a></li>
+                        <li class="mb-2"><a href="#">個人成長</a></li>
+                        <li class="mb-2"><a href="#">金融投資</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 text-center text-md-left mb-5">
+                    <h3 class="text-white mb-3 letter-space-10 MS_goldHK">關於我們</h3>
+                    <ul class="nav-listing list-unstyled text-white font-weight-light letter-space-10">
+                        <li class="mb-2"><a href="#">關於我們</a></li>
+                        <li class="mb-2"><a href="#">成為星級名師</a></li>
+                        <li class="mb-2"><a href="#">訂閱計畫</a></li>
+                        <li class="mb-2"><a href="#">個人專頁</a></li>
+                        <li class="mb-2"><a href="#">星級名師介面</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 text-center text-md-left mb-5">
+                    <h3 class="text-white mb-3 letter-space-10 MS_goldHK">聯絡我們</h3>
+                    <ul class="nav-listing nav-social-listing list-unstyled text-white font-weight-light">
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10.24" height="20.113" viewBox="0 0 10.24 20.113">
+                                        <path id="Path_94" data-name="Path 94" d="M981.354,4724.5v9.157h-3.707v-9.067H974.63v-3.6l2.914-.2c.187-2.26-.44-4.723,1.694-6.357,1.687-1.292,3.628-.828,5.632-.751v2.873c-1.1.327-2.5.351-3.184,1.063-.582.611-.339,2.009-.479,3.214l3.6.173c-.145,1.186-.28,2.284-.428,3.489Z" transform="translate(-974.63 -4713.543)" fill="#fff" />
+                                    </svg>
+                                </i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.704" height="15.914" viewBox="0 0 18.704 15.914">
+                                        <g id="Group_49" data-name="Group 49" transform="translate(-970.398 -4754.512)">
+                                            <path id="Path_95" data-name="Path 95" d="M972.322,4764.249l.645-.13c-.816-1.109-1.693-2.3-2.569-3.492l.32-.369,1.345.068c-1.229-1.548-1.887-3.133-.8-5.156a11.7,11.7,0,0,0,8.18,4.1c-.008-1.955.369-3.745,2.288-4.415a4.709,4.709,0,0,1,3.359-.047,4.257,4.257,0,0,0,3.765.266l-1.058,1.625,1.3-.164c-1.771,1.3-1.414,3.345-1.867,5.107a11.024,11.024,0,0,1-16.7,7.239l5.023-1.462-3.507-2.724Z" fill="#fff" />
+                                        </g>
+                                    </svg>
+                                </i>
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19.033" height="19.025" viewBox="0 0 19.033 19.025">
+                                        <g id="Group_52" data-name="Group 52" transform="translate(-970.234 -4790.221)">
+                                            <path id="Path_100" data-name="Path 100" d="M979.7,4809.22c-1.393,0-2.788.048-4.179-.009a5.033,5.033,0,0,1-5.219-5.171q-.125-4.176-.01-8.359c.083-3.235,1.965-5.22,5.2-5.368,2.781-.127,5.577-.119,8.359,0a5.174,5.174,0,0,1,5.35,5.431c.091,2.681.1,5.37.009,8.051-.115,3.391-2.091,5.3-5.483,5.424-1.34.05-2.683.008-4.025.008Zm.073-17.117v-.053c-1.238,0-2.476,0-3.713,0a7.453,7.453,0,0,0-.772.053c-1.788.192-3.033,1.108-3.124,2.852-.167,3.179-.14,6.376-.019,9.559a2.825,2.825,0,0,0,2.911,2.855c3.082.115,6.179.183,9.255.013a2.963,2.963,0,0,0,3.063-3.228c.108-2.933.1-5.876,0-8.809a3.165,3.165,0,0,0-3.274-3.225C982.659,4792.023,981.211,4792.1,979.768,4792.1Z" fill="#fff" />
+                                            <path id="Path_101" data-name="Path 101" d="M979.691,4804.65a4.878,4.878,0,1,1,4.909-4.877A4.8,4.8,0,0,1,979.691,4804.65Zm-3.139-4.918a3.167,3.167,0,1,0,6.334.1,3.184,3.184,0,0,0-3.115-3.2A3.232,3.232,0,0,0,976.552,4799.732Z" fill="#fff" />
+                                            <path id="Path_102" data-name="Path 102" d="M984.8,4793.139c.515.7,1.091,1.15,1.027,1.476-.088.453-.655.814-1.017,1.214-.379-.4-.961-.746-1.066-1.205C983.671,4794.312,984.267,4793.847,984.8,4793.139Z" fill="#fff" />
+                                        </g>
+                                    </svg>
+                                </i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.352" height="18.497" viewBox="0 0 18.352 18.497">
+                                        <g id="Group_51" data-name="Group 51" transform="translate(-970.543 -4829.718)">
+                                            <path id="Path_98" data-name="Path 98" d="M970.543,4848.215c.114-.488.159-.779.25-1.055a9.524,9.524,0,0,0,.154-6.065,8.916,8.916,0,0,1,6.517-11.1,9.151,9.151,0,0,1,11.131,6.593,8.978,8.978,0,0,1-6.7,11.137,10,10,0,0,1-4.7-.121,6.84,6.84,0,0,0-4.308.007C972.214,4847.844,971.5,4847.972,970.543,4848.215Zm2.33-2.663a13.892,13.892,0,0,1,3.771.313,7.79,7.79,0,0,0,9.255-2.577,7.573,7.573,0,0,0-9.8-11.055,7.387,7.387,0,0,0-3.578,8.853C973.087,4842.674,973.627,4844.117,972.873,4845.552Z" fill="#fff" />
+                                            <path id="Path_99" data-name="Path 99" d="M982.015,4839.923a3.761,3.761,0,0,1,.975.425c.47.426.877.921,1.31,1.388-.633.516-1.272,1.463-1.9,1.453a6.009,6.009,0,0,1-3.306-1.019,19.012,19.012,0,0,1-3.4-3.521,2.871,2.871,0,0,1-.511-2.026,4.361,4.361,0,0,1,1.094-1.89,1.172,1.172,0,0,1,1.039.21c.343.762.957,1.835.674,2.368-1.067,2.007.768,2.36,1.612,3.216C980.508,4841.447,981.352,4841.071,982.015,4839.923Z" fill="#fff" />
+                                        </g>
+                                    </svg>
+                                </i>
+                                Whatsapp
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 576 512" class="svg-inline--fa fa-youtube fa-w-18 fa-7x"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" class=""></path></svg>
+                                </i>
+                                Youtube
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#">
+                                <i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"  viewBox="0 0 87.66 72.75"><defs><style>.cls-1{fill:#fff;fill-rule:evenodd;}</style></defs><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M86,39.11A24.19,24.19,0,0,0,74.7,27.6a31.14,31.14,0,0,0-27.87.11c-6,3.06-10.93,8.54-12.35,15.21A19.48,19.48,0,0,0,37,57.38c3.87,6.44,10.87,10.55,18.15,11.87A33.4,33.4,0,0,0,71,68.2c3.07,1.2,5.81,3.13,8.79,4.55q-1.14-3.85-2.46-7.67a25.09,25.09,0,0,0,8.2-9A19.65,19.65,0,0,0,86,39.12ZM49.74,4.54A37,37,0,0,0,19.47,2.18,30.81,30.81,0,0,0,3.6,14.67a23.45,23.45,0,0,0-2.92,18C2.26,39.36,6.93,45,12.6,48.75Q11,53.4,9.47,58.08c3.56-1.86,7.13-3.8,10.69-5.69a39.9,39.9,0,0,0,13.37,1.89,22.59,22.59,0,0,1-.94-10.79,23,23,0,0,1,7.29-13c6.3-5.9,15.23-8.39,23.73-7.78-1.59-7.8-7.07-14.39-14-18.19ZM56.06,41a3.59,3.59,0,1,1-4.6-4.65C54.14,35.25,57.24,38.34,56.06,41Zm17.52.33a3.66,3.66,0,0,1-5.75,1,5.34,5.34,0,0,1-1.26-2.67C67,38,68.1,36.27,70,36.19c2.58-.36,4.88,2.82,3.56,5.17ZM47.45,17.78c0,3.51-4.66,5.7-7.29,3.33a4.48,4.48,0,1,1,7.28-3.37Zm-22.14.89a4.5,4.5,0,0,1-7.1,2.48c-2.78-1.95-2-6.79,1.26-7.78,3.19-1.23,6.81,2,5.85,5.3Z"/></g></g></svg>
+                                </i>
+                                Wechat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 text-center text-md-left mb-5">
+                    <h3 class="text-white mb-3 letter-space-10 MS_goldHK">公司地址</h3>
+                    <ul class="nav-listing list-unstyled text-white font-weight-light">
+                        <li class="mb-2"><a href="#">About All in Master</a></li>
+                        <li class="mb-2"><a href="#">Business, Politics & Society</a></li>
+                        <li class="mb-2"><a href="#">Culinary Arts</a></li>
+                        <li class="mb-2"><a href="#">Lifestyle</a></li>
+                        <li class="mb-2"><a href="#">Film & TV</a></li>
+                        <li class="mb-2"><a href="#">Writing</a></li>
+                        <li class="mb-2"><a href="#">Sports & Games</a></li>
+                        <li class="mb-2"><a href="#">Science & Technology</a></li>
+                        <li class="mb-2"><a href="#">Design, Photography & Fashion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="bg-black">
         <div class="container-fluid container-lg">
-            <p class="py-3 mb-0 text-white dinpro font-weight-lighter"><img class="mx-4" src="assets/icons/all_in_master_footer_logo.png" alt=""> &copy; 2020 All in Master. All Right Reserved.</p>
+            <p class="py-3 mb-0 text-white dinpro font-weight-lighter"><img class="mx-4" src="assets/icons/all_in_master_footer_logo.png" alt=""> &copy; 2020 All Masters World Limited. All Right Reserved.</p>
         </div>
     </footer>
+        <div class="fixed-wts">
+        <a href="https://api.whatsapp.com/send?phone=123456" target="_blank" class="wtsapp">
+            <div class="d-flex align-items-center justify-content-center full-height">
+                <div class="icon">
+                    <img src="assets/icons/wts.svg">
+                </div>
+            </div>
+        </a>
+    </div>
     <script src="assets/vendors/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>

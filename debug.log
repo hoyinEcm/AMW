@@ -14,3 +14,5 @@
 [1110/140015.489:ERROR:crash_report_database_win.cc(457)] unexpected header
 [1110/140021.709:ERROR:crash_report_database_win.cc(457)] unexpected header
 [1110/140041.722:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1121/122426.046:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系統找不到指定的路徑。 (0x3)
+[1121/125107.607:ERROR:directory_reader_win.cc(43)] FindFirstFile: 系統找不到指定的路徑。 (0x3)

@@ -400,6 +400,7 @@ footer img {
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
+    padding: 0px;
 }
 
 .home-intro-bg {
@@ -2425,10 +2426,14 @@ input[name=search_input]:focus {
     letter-spacing: 0px !important;
 }
 .menu_bar{
-    max-width: 95% !important;
+    /*max-width: 95% !important;*/
 }
 .navbar-dark .navbar-nav .nav-link{
     color: rgba(255,255,255,1) ;
+}
+.vh-80{
+    height: 80vh !important;
+    overflow: hidden;
 }
 .fixed-wts {
     position: fixed;
@@ -2437,4 +2442,23 @@ input[name=search_input]:focus {
     bottom: 40px;
     right: 20px;
     z-index: 10;
+}
+.video-section{
+/*    max-height: 80vh!important;
+    overflow: hidden;*/
+}
+video {  
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+}
+@media only screen and (max-width: 680px) {
+video {  
+background: url(../images/banner/home-banner.jpg);
+
+}
 }

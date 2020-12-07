@@ -160,7 +160,9 @@ nav {
 .nv-mt-4 {
     margin-top: -4px !important;
 }
-
+.pt-30{
+    padding-bottom: 30px !important;
+}
 .pt-50 {
     padding-top: 50px !important;
 }
@@ -172,6 +174,11 @@ nav {
 .py-50 {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+}
+
+.py-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
 }
 
 .py-30 {
@@ -189,6 +196,9 @@ nav {
 
 .pb-100 {
     padding-bottom: 100px !important;
+}
+.pb-150{
+    padding-bottom: 150px !important;
 }
 
 .py-100 {
@@ -444,7 +454,16 @@ footer img {
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-   /*  background-color: #152029;*/
+    /*  background-color: #152029;*/
+}
+
+.home-instructor-bg-color {
+    background-blend-mode: multiply;
+    background-image: url('../images/banner/color-bg.svg');
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #152029;
 }
 
 .instructor-bg {
@@ -545,9 +564,11 @@ footer img {
 .instructor-grid-container .instructor-item .instructor-info .instructor-bookmark svg.bookmark-icon:hover {
     fill: transparent;
 }
-.btn{
+
+.btn {
     border-radius: 0px;
 }
+
 .btn.load-more-btn {
     background-color: #C3C3C3;
     border-radius: 30px !important;
@@ -561,6 +582,7 @@ footer img {
     /*padding-left: 38px !important;*/
 }
 
+
 .btn.btn-course-category,
 .btn.btn-main {
     background-color: #223039;
@@ -572,6 +594,7 @@ footer img {
     color: #ffffff;
     font-weight: 300;
     font-family: aura;
+    border-radius: 5px;
 }
 
 .login-overlay {
@@ -930,11 +953,11 @@ footer img {
 .instructor-summary-div {
     background: rgb(0, 0, 0);
     /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
     /* IE6-9 */
@@ -952,19 +975,45 @@ footer img {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
     /* IE6-9 */
 }
-
-.instructor-course-div {
+.cart-detail-div{
     background: rgb(0, 0, 0);
     /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(38, 38, 38, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(38, 38, 38, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 95%, rgba(0, 0, 0, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
     /* IE6-9 */
 }
+.instructor-course-div {
+    background: rgb(0, 0, 0);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(65, 70, 80, 1) 10%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+}
+
+.cart-detail-div {
+    background: rgb(0, 0, 0);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 7%, rgba(65, 70, 80, 1) 30%, rgba(65, 70, 80, 1) 70%, rgba(65, 70, 80, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+}
+
+
 
 .course-detail-div .course-detail-tab-title a,
 .course-detail-div .course-detail-tab-title a:hover,
@@ -1609,6 +1658,7 @@ footer img {
 .user-profile-container .course-detail-tab-title a.active .title {
     border-bottom: 4px #C49461 solid;
     color: #C49461 !important;
+    padding-bottom: 10px;
 }
 
 .user-profile-container .instructor-item .instructor-img {
@@ -1616,6 +1666,7 @@ footer img {
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
+    border-bottom: 1px #c59461 solid;
 }
 
 .user-profile-container .instructor-item .instructor-img img {
@@ -1624,7 +1675,7 @@ footer img {
 }
 
 .user-profile-container .instructor-item .instructor-info-div {
-    height: 150px !important;
+    /*height: 150px !important;*/
     background-color: #2d3f49;
     position: relative;
     transition: all ease-in-out 0.5s;
@@ -1795,7 +1846,7 @@ footer img {
 }
 
 .cart-summary-div .cart-summary-price {
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 600;
     color: #C49461;
 }
@@ -2391,34 +2442,14 @@ h6 {
     background-color: #152228 !important;
 }
 
-.arrow-btn-gold {
-    border-radius: 0px !important;
-    position: relative;
-
+.start-btn {
+    border: 1px #C49461 solid !important;
+    padding-left: 20px !important;
+    background-color: #152228 !important;
 }
 
-.arrow-btn-gold:after {
-    content: "";
-    position: absolute;
-    left: -22px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-right: 22px solid #c49460;
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
-}
-
-.arrow-btn-gold:before {
-    content: "";
-    position: absolute;
-    right: -22px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 22px solid #c49460;
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
+.back-test {
+    padding-left: 20px !important;
 }
 
 .setting-nav-item:hover {
@@ -2435,7 +2466,7 @@ h6 {
 }
 
 .course-carousel-rating-meta {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     opacity: 0.55;
 }
 
@@ -2592,39 +2623,112 @@ video {
     font-weight: lighter;
 }
 
-.btn {
-    border-radius: 0px !important;
-}
-
 .instructor-info a {
     text-decoration: none !important;
 }
-.w-40{
+
+.w-40 {
     width: 40% !important;
 }
-.trans-btn{
+
+.trans-btn {
     background-color: transparent;
     color: #c49460;
     border: 1px #c49460 solid;
     border-radius: 6px !important;
 }
-.trans-btn:hover{
+
+.trans-btn:hover {
     background-color: transparent;
     color: #fff;
     border: 1px #fff solid;
     border-radius: 6px !important;
 }
-.instructors-pic-circle{
-        width: 100%;
+
+.instructors-pic-circle {
+    width: 100%;
     height: auto;
     border-radius: 50%;
     border: 3px #C49461 solid;
     margin-left: auto;
     margin-right: auto;
 }
+
 ::marker {
     color: #FFF;
 }
-p{
+
+p {
     margin-bottom: 0.4rem;
 }
+
+.footer-bg {
+    background-image: url(../images/banner/footer-bg.png);
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.footer-bg-color {
+    
+    background-image: url('../images/background/color-bg.svg');
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+  /*  background-color: #152029;*/
+}
+
+.no-radius {
+    border-radius: 0px !important;
+}
+
+.course-carousel-div .course-carousel-info .course-carousel-price:hover {
+    background-color: #c49460;
+    color: #fff;
+}
+
+.course-item:hover .staff-pick-badge {
+    content: url(../icons/staff-pick-badge.svg);
+}
+
+.instructor-intro {
+    background: rgb(0, 0, 0);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, rgba(28, 40, 45, 0.75) 15%, rgba(28, 40, 45, 0.75) 30%, rgba(28, 40, 45, 0.75) 85%, rgba(0, 0, 0, 0.85) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%,  rgba(28, 40, 45, 0.75) 15%, rgba(28, 40, 45, 0.75) 30%, rgba(28, 40, 45, 0.75) 85%, rgba(0, 0, 0, 0.85) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(28, 40, 45, 0.75) 15%, rgba(28, 40, 45, 0.75) 30%, rgba(28, 40, 45, 0.75) 70%, rgba(28, 40, 45, 0.85) 85%, rgba(0, 0, 0, 0.85) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+}
+
+.cart-div .cart-list-item .course-price .course-price-btn:hover{
+    background-color: #c49460;
+    color: #FFF;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

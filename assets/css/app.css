@@ -245,8 +245,10 @@ hr {
 .bg-gold-30 {}
 
 .join-header {
-    background-blend-mode: soft-light;
-    background-color: rgba(0, 0, 0, 0.3) !important;
+/*    background-image: url(../images/background/test_bg.png);
+    background-blend-mode: multiply;*/
+    background-color: #2D3F492b;
+
 }
 
 .bg-grey {

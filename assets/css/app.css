@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     /* add by hoyin */
 }
 
@@ -28,8 +28,8 @@ body {
 
 @font-face {
     font-family: 'dinPro';
-    src: url("../fonts/DINPro-Light.woff") format('woff');
-    font-weight: lighter;
+    src: url("../fonts/DINPro-Regular.tff") format('woff');
+    font-weight: normal;
 }
 
 @font-face {
@@ -58,6 +58,11 @@ body {
 .dinpro {
     font-family: 'dinPro';
 }
+.dinpro_light {
+    font-family: 'dinPro';
+    font-weight: lighter;;
+}
+
 
 .DinConBold {
     font-family: 'DinConBold';
@@ -110,7 +115,7 @@ nav {
 .main-navbar {
     background-image: url(../images/background/menu_bg.svg);
     background-color: #2D3F49;
-    opacity: 0.85;
+/*    opacity: 0.85;*/
     background-blend-mode: multiply;
 }
 
@@ -120,7 +125,7 @@ nav {
 }
 
 .main-navbar img {
-    height: 120px;
+    max-height: 100px;
 }
 
 .navbar-dark .navbar-text {
@@ -166,6 +171,14 @@ nav {
 .py-50 {
     padding-top: 50px !important;
     padding-bottom: 50px !important;
+}
+
+.py-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+.pt-80{
+    padding-top: 80px !important;
 }
 
 .pt-100 {
@@ -1348,7 +1361,7 @@ footer img {
 }
 
 .course-carousel-div .course-carousel-thumbnail {
-    height: 250px;
+    height: 180px;
     border: 1px #C49461 solid;
     background-size: cover !important;
     background-position: center center !important;
@@ -1405,13 +1418,13 @@ footer img {
 }
 
 .course-carousel-div .course-carousel-info .course-carousel-rating-score p {
-    font-size: 65px;
+    font-size: 32px;
     line-height: 1;
 }
 
-.course-carousel-div .course-carousel-info .course-carousel-rating ul {
+/*.course-carousel-div .course-carousel-info .course-carousel-rating ul {
     float: right;
-}
+}*/
 
 .course-carousel-div .course-carousel-info .course-carousel-rating ul li {
     background-color: transparent;
@@ -1432,15 +1445,10 @@ footer img {
     margin-right: auto;
 }
 .course-carousel-price{
-    font-size: 20px !important; 
+    font-size: 30px !important; 
 }
 .course-carousel-div .course-carousel-info .course-carousel-price {
-    border: 1px #C49461 solid;
     color: #C49461;
-    font-weight: 600;
-    font-size: 14px;
-    padding: 5px 10px 5px 10px;
-    background: transparent;
 }
 .time-limit{
     font-size: 85px;
@@ -2117,7 +2125,7 @@ footer img {
 }
 
 .nav-link {
-    letter-spacing: 0.6em;
+    letter-spacing: 0.2em;
     font-weight: 200;
 }
 
@@ -2148,7 +2156,7 @@ footer img {
     stroke: #000;
 }
 
-.menu_link:hover>a:before {
+/*.menu_link:hover>a:before {
     display: inline-block;
     content: ' ';
     background-image: url('../icons/menu_icon.svg');
@@ -2158,9 +2166,9 @@ footer img {
     position: absolute;
     left: -15px;
     bottom: 13px;
-}
+}*/
 
-.sub-menu-item:after {
+/*.sub-menu-item:after {
     display: inline-block;
     content: ' ';
     background-image: url(../icons/menu_icon_white.svg);
@@ -2168,7 +2176,7 @@ footer img {
     height: 20px;
     width: 20px;
     margin-left: 20px;
-}
+}*/
 
 
 .top-scroll-icon {
@@ -2461,4 +2469,69 @@ video {
 background: url(../images/banner/home-banner.jpg);
 
 }
+}
+
+
+
+.menu_shopping_cart{
+    background-image: url(../icons/shopping_cart.svg);
+  display: inline-block;
+  width: 26px;
+  height: 23px;
+  background-size: cover;
+vertical-align: bottom;
+margin-right: 10px;
+
+}
+.menu_login:hover .menu_shopping_cart{
+        background-image: url(../icons/shopping_cart_color.svg);
+
+
+}
+
+.menu_lang_switcher{
+    background-image: url(../icons/lang_switcher.svg);
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-size: cover;
+vertical-align: bottom;
+margin-right: 10px;
+
+}
+.menu_lang:hover .menu_lang_switcher{
+        background-image: url(../icons/lang_switcher_color.svg);
+
+
+}
+
+.head-line-text{
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.course-carousel-info{
+    border: 1px solid rgb(255 255 255 / 0.3);
+}
+
+.eyes{
+    background-image: url(../icons/eyes.svg);
+  display: inline-block;
+  width: 27px;
+  height: 15px;
+  background-size: cover;
+vertical-align: baseline;
+margin-right: 10px;
+
+}
+
+.clock{
+    background-image: url(../icons/clock.svg);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+vertical-align: bottom;
+margin-right: 10px;
+
 }
